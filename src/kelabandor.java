@@ -360,6 +360,12 @@ public class kelabandor {
 		frame.getContentPane().add(btnNewButton_5_5);
 		
 		JButton btnNewButton_5_6 = new JButton("WN");
+		btnNewButton_5_6.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				textArea.setText("Kela Bandor Calculator - "
+						+ "We Count Every Point");
+			}
+		});
 		btnNewButton_5_6.setForeground(Color.CYAN);
 		btnNewButton_5_6.setFont(new Font("Imprint MT Shadow", Font.BOLD, 20));
 		btnNewButton_5_6.setBackground(Color.ORANGE);
